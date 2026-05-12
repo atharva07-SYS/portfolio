@@ -1,11 +1,13 @@
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import { supabase } from '@/lib/supabase';
-
-// Initialize Resend with the API key from environment variables
-const resend = new Resend(process.env.RESEND_API_KEY || "re_test_key");
+ 
+ export const dynamic = 'force-dynamic';
 
 export async function POST(req: Request) {
+  // Initialize Resend inside the handler
+  const resend = new Resend(process.env.RESEND_API_KEY || "re_test_key");
+
   try {
     const body = await req.json();
     const { name, email, subject, message } = body;
@@ -27,7 +29,7 @@ export async function POST(req: Request) {
     }
 
     // Insert into Supabase
-    if (process.env.NEXT_PUBLIC_SUPABASE_URL) {
+    if (supabase) {
       const { error: dbError } = await supabase
         .from('contacts')
         .insert([{ name, email, subject, message }]);
