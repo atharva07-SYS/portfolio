@@ -5,8 +5,11 @@ import { supabase } from '@/lib/supabase';
  export const dynamic = 'force-dynamic';
 
 export async function POST(req: Request) {
-  // Initialize Resend inside the handler
-  const resend = new Resend(process.env.RESEND_API_KEY || "re_test_key");
+  console.log('--- Contact API Triggered ---');
+  const apiKey = process.env.RESEND_API_KEY?.trim();
+  console.log('API Key present:', !!apiKey);
+
+  const resend = new Resend(apiKey || "re_test_key");
 
   try {
     const body = await req.json();
@@ -58,7 +61,7 @@ export async function POST(req: Request) {
     });
 
     if (error) {
-      console.error('Resend Error:', error);
+      console.error('Resend Error Details:', error);
       return NextResponse.json(
         { error: 'Failed to send email' },
         { status: 500 }
