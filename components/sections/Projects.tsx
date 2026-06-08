@@ -10,8 +10,8 @@ const projects = [
     description: "Premium digital experience for a modern creative agency.",
     tags: ["Next.js", "Framer"],
     liveUrl: "https://demoagency.vercel.app/",
-    gridSpan: "md:col-span-8",
-    bg: "bg-white/[0.03]",
+    gridSpan: "md:col-span-4",
+    bg: "bg-white/[0.01]",
   },
   {
     title: "Backend Core",
