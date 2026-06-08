@@ -9,7 +9,7 @@ const projects = [
     title: "She Can Connect",
     description: "A comprehensive MERN stack platform empowering women in tech through mentorship, community engagement, and resource sharing.",
     tags: ["MongoDB", "Express", "React", "Node.js", "Vercel", "Render"],
-    liveUrl: "https://shecan-fi3i.onrender.com/", // Placeholder, will let user know to update
+    liveUrl: "https://she-can-ten.vercel.app/", 
     gridSpan: "md:col-span-12",
     bg: "bg-gradient-to-br from-purple-500/[0.05] to-pink-500/[0.05]",
   }
