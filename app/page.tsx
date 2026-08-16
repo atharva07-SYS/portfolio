@@ -5,6 +5,7 @@ import Projects from "@/components/sections/Projects";
 import FullStack from "@/components/sections/FullStack";
 import Skills from "@/components/sections/Skills";
 import Achievements from "@/components/sections/Achievements";
+import ExtraCurriculars from "@/components/sections/ExtraCurriculars";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/ui/Footer";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <FullStack />
       <Skills />
       <Achievements />
+      <ExtraCurriculars />
       <Contact />
       <Footer />
     </main>

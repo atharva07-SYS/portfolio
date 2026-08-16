@@ -5,6 +5,11 @@ import { motion } from "framer-motion";
 const milestones = [
   {
     year: "2026",
+    title: "Hacker House Goa — Builder Cohort",
+    desc: "Selected as a participant to develop high-performance applications and decentralized ID systems.",
+  },
+  {
+    year: "2026",
     title: "SIH College Round — 2nd Rank",
     desc: "Engineered a full-stack solution under pressure, securing top recognition.",
   },
@@ -14,7 +19,12 @@ const milestones = [
     desc: "Collaborated with international developers to solve space-data challenges.",
   },
   {
-    year: "2024",
+    year: "2025",
+    title: "Adobe University Hackathon — Participant",
+    desc: "Developed creative web applications and generative AI tools under intense timelines.",
+  },
+  {
+    year: "2025",
     title: "OpenAI × NxtWave Program",
     desc: "Explored generative AI integration and advanced development paradigms.",
   },
