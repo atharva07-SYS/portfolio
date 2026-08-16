@@ -10,6 +10,11 @@ const milestones = [
   },
   {
     year: "2026",
+    title: "Adobe University Hackathon — Participant",
+    desc: "Developed creative web applications and generative AI tools under intense timelines.",
+  },
+  {
+    year: "2025",
     title: "SIH College Round — 2nd Rank",
     desc: "Engineered a full-stack solution under pressure, securing top recognition.",
   },
@@ -17,11 +22,6 @@ const milestones = [
     year: "2025",
     title: "NASA Space Apps — Global Participant",
     desc: "Collaborated with international developers to solve space-data challenges.",
-  },
-  {
-    year: "2025",
-    title: "Adobe University Hackathon — Participant",
-    desc: "Developed creative web applications and generative AI tools under intense timelines.",
   },
   {
     year: "2025",
