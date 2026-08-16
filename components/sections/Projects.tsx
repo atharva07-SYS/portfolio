@@ -6,6 +6,22 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
+    title: "The Draw",
+    description: "A random-topic research engine built to grow into a full publishing platform for handwritten knowledge.",
+    tags: ["React", "Node.js", "PostgreSQL"],
+    liveUrl: "https://nerd-du6u.onrender.com",
+    gridSpan: "md:col-span-8",
+    bg: "bg-white/[0.03]",
+  },
+  {
+    title: "VectorForge",
+    description: "A Vector Search Engine Built From Scratch (HNSW + Product Quantization + REST API)",
+    tags: ["HNSW", "Algorithms", "Python", "REST API"],
+    liveUrl: "https://vector-search-engine-kdvk.onrender.com/",
+    gridSpan: "md:col-span-4",
+    bg: "bg-white/[0.01]",
+  },
+  {
     title: "Agency Website",
     description: "Premium digital experience for a modern creative agency.",
     tags: ["Next.js", "Framer"],
@@ -14,26 +30,10 @@ const projects = [
     bg: "bg-white/[0.01]",
   },
   {
-    title: "Backend Core",
-    description: "Robust architecture for high-scale apps.",
-    tags: ["Node", "Supabase"],
-    liveUrl: "#",
-    gridSpan: "md:col-span-4",
-    bg: "bg-white/[0.01]",
-  },
-  {
-    title: "UI System",
-    description: "Modular design language for scalable products.",
-    tags: ["Design", "React"],
-    liveUrl: "#",
-    gridSpan: "md:col-span-4",
-    bg: "bg-white/[0.01]",
-  },
-  {
-    title: "AI Integration",
-    description: "Next-gen automation tools with LLM precision.",
-    tags: ["OpenAI", "Python"],
-    liveUrl: "#",
+    title: "HH Goa Builder ID",
+    description: "Create your personalised Hacker House Goa 2026 Builder ID card. Upload your photo, customise details, and download to share.",
+    tags: ["React", "Tailwind CSS", "Canvas", "Vite"],
+    liveUrl: "https://hacker-house-goa-kappa.vercel.app/",
     gridSpan: "md:col-span-8",
     bg: "bg-white/[0.03]",
   },
